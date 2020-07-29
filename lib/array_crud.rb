@@ -37,11 +37,11 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  party = ["warrior", "white mage", "rogue", "black mage"]
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
   party[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-  party = ["warrior", "white mage", "rogue", "black mage"]
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
   party[0] = "paladin"
 end
