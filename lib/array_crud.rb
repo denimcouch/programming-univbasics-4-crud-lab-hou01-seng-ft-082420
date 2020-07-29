@@ -12,7 +12,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  party = ["warrior", "white mage", "rogue", "black mage"]
+  array = ["wow", "I", "am", "really", "learning"]
   party.unshift["paladin"]
 end
 
