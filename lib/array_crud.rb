@@ -13,35 +13,35 @@ end
 
 def add_element_to_start_of_array(array, element)
   array = ["I", "am", "really", "learning"]
-  party.unshift{"wow"}
+  array.unshift["wow"]
 end
 
 def remove_element_from_end_of_array(array)
   array = ["I", "am", "really", "learning", "arrays!"]
-  party.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  party.shift 
+  array.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  party[2]
+  array[2]
 end
 
 def retrieve_first_element_from_array(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  party[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  party[-1]
+  array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
   array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  party[4] = "totally"
+  array[4] = "totally"
 end
